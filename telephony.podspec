@@ -25,7 +25,8 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'telephony/Classes/pjproject-2.2.1/pjsip/include/**/*.h'
+  s.source_files = 'telephony/Classes/pjproject-2.2.1/pjsip/include/**/*.h', 'telephony/Classes/pjproject-2.2.1/pjlib/include/**/*.h', 'telephony/Classes/pjproject-2.2.1/pjmedia/include/**/*.h'
+
   #s.resources = 'Assets/*.png'
 
    s.preserve_paths = 'telephony/Classes/pjproject-2.2.1/**/*.h'
