@@ -26,15 +26,15 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  #s.source_files = 'Classes/pjproject-2.2.1/**/*.*'
+  #s.source_files = 'telephony/Classes/pjproject-2.2.1/**/*.*'
   #s.resources = 'Assets/*.png'
 
-   s.preserve_paths = 'Classes/pjproject-2.2.1/**/*.h'
-   s.vendored_libraries = 'Classes/pjproject-2.2.1/libpjsip-universal-apple.a'
+   s.preserve_paths = 'telephony/Classes/pjproject-2.2.1/**/*.h'
+   s.vendored_libraries = 'telephony/Classes/pjproject-2.2.1/libpjsip-universal-apple.a'
    s.libraries = 'pjsip'
 
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
+#  s.ios.exclude_files = 'Classes/osx'
+#  s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
   # s.dependency 'JSONKit', '~> 1.4'
