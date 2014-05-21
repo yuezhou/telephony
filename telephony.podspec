@@ -1,4 +1,3 @@
-#
 # Be sure to run `pod lib lint NAME.podspec' to ensure this is a
 # valid spec and remove all comments before submitting the spec.
 #
@@ -31,7 +30,7 @@ Pod::Spec.new do |s|
 
    s.preserve_paths = 'telephony/Classes/pjproject-2.2.1/**/*.h'
    s.vendored_libraries = 'telephony/Classes/pjproject-2.2.1/libpjsip-universal-apple.a'
-   s.libraries = 'pjsip'
+   s.libraries = 'pjsip-universal-apple'
 
 #  s.ios.exclude_files = 'Classes/osx'
 #  s.osx.exclude_files = 'Classes/ios'
