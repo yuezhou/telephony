@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'telephony/Classes/pjproject-2.2.1/pjsip/include/*.h', 'telephony/Classes/pjproject-2.2.1/pjlib/include/*.h', 'telephony/Classes/pjproject-2.2.1/pjmedia/include/*.h'
+  s.source_files = 'telephony/Classes/pjproject-2.2.1/pjsip/include/*.h', 'telephony/Classes/pjproject-2.2.1/pjlib/include/*.h', 'telephony/Classes/pjproject-2.2.1/pjmedia/include/*.h', 'telephony/Classes/pjproject-2.2.1/pjsip/include/pjsua-lib/*.h', 'telephony/Classes/pjproject-2.2.1/pjlib-util/include/*.h', 'telephony/Classes/pjproject-2.2.1/pjsip/pjnath/include/*.h'
 
   #s.resources = 'Assets/*.png'
 
