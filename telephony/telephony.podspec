@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Yue Zhou" => "yue.zhou@savantsystems.com" }
-  s.source           = { :git => "https://github.com/yuezhou/telephony.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/yuezhou/telephony.git", :tag => "0.1.0" }
   s.social_media_url = 'https://twitter.com/EXAMPLE'
 
   # s.platform     = :ios, '5.0'
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'telephony/Classes/ios/*.h'
+  s.source_files = 'Classes/pjproject-2.2.1/**/*.h'
   #s.resources = 'Assets/*.png'
 
   s.ios.exclude_files = 'Classes/osx'
