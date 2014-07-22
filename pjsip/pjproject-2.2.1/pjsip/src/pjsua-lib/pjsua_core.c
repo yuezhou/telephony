@@ -23,6 +23,7 @@
 
 #define THIS_FILE   "pjsua_core.c"
 
+PJ_DEF(pj_status_t) pjsip_sla_init_module( pjsip_endpoint *endpt, pjsip_module *mod_evsub);
 
 /* Internal prototypes */
 static void resolve_stun_entry(pjsua_stun_resolve *sess);
