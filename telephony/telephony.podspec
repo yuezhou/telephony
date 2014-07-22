@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  #s.source_files = 'Classes/pjproject-2.2.1/**/*.*'
+  s.source_files = 'Classes/Telephony/**/*.*, Classes/pjproject-2.2.1/**/*.h'
   #s.resources = 'Assets/*.png'
 
    s.preserve_paths = 'Classes/pjproject-2.2.1/**/*.h'
